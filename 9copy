@@ -4,3 +4,7 @@ NUMBER1=200
 NUMBER2=300
 
 SUM=$(($NUMBER1 + $NUMBER2))
+echo "The sum of $NUMBER1 and $NUMBER2 is: $SUM"
+
+LEADERS=("Trump" "Putin" "Modi" "Biden" "Xi")
+echo "World Leaders: ${LEADERS[@]}"
