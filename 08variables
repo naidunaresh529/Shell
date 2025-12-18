@@ -2,3 +2,4 @@
 echo "all variables passed to the script: $@"
 echo "all variables passed to the script: $#"
 # speical variables
+echo "script name is: $0"
