@@ -1,0 +1,15 @@
+#!/bin/bash
+dnf install nginx -y
+if [ $? -ne 0 ]; then
+    echo "ERROR:: Nginx installation failed"
+    exit 1
+else
+    echo "Nginx installed successfully"
+fi
+dnf install mongodb -y
+if [ $? -ne 0 ]; then
+    echo "ERROR:: Mongodb installation failed"
+    exit 1
+else
+    echo "Mongodb installed successfully"
+fi
