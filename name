@@ -5,4 +5,5 @@ NAME=DEVOPS
  SUM=$(($NUMBER1 + $NUMBER2 + $NAME))
  echo "Sum is: ${SUM}"
  LEADERS= ("MODI" "PUTIN" "TRUMP")
+ 
  echo "all leaders: ${LEADERS}[@]"
